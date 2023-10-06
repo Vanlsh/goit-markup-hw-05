@@ -441,7 +441,7 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-title">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-form-lable">
+            <label class="footer-form-lable" name="user-email">
               <input class="subscribe-email" type="email" name="user_email" placeholder="E-mail" />
             </label>
             <button type="submit" class="subscribe-button">
@@ -456,7 +456,7 @@
     </footer>
     <div class="modal-container">
       <div class="modal-wrapper">
-        <button class="modal-close">
+        <button class="modal-close" type="button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -515,7 +515,7 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="#">Privacy Policy</a>
+              <a class="modal-privacy-link" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="modal-form-btn" type="button">Send</button>
